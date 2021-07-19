@@ -1,10 +1,17 @@
 {
-  "name": "@kenai/antd-css-resolver",
+  "name": "@spookfish-ai/antd-css-resolver",
   "version": "1.0.1",
   "description": "Dynamically generate ant.design styles from an api route",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spookfish-ai/antd-css-resolver.git"
+  },
   "files": [
     "dist/index.js",
     "dist/index.d.ts",
