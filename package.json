@@ -1,6 +1,6 @@
 {
   "name": "@spookfish-ai/antd-css-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dynamically generate ant.design styles from an api route",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "release": "standard-version -a",
     "build": "tsc"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "esbuild": "^0.12.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "standard-version": "^9.3.1",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
