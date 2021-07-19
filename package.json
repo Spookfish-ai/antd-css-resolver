@@ -1,0 +1,43 @@
+{
+  "name": "@kenai/antd-css-resolver",
+  "version": "1.0.1",
+  "description": "Dynamically generate ant.design styles from an api route",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/next-api-handler.js",
+    "dist/next-api-handler.d.ts",
+    "dist/style-resolver.js",
+    "dist/style-resolver.d.ts"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/less": "^3.0.3",
+    "@types/node": "^16.3.3",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "esbuild": "^0.12.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "antd": "^4.16.8",
+    "less": "^4.1.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "less-plugin-npm-import": "^2.1.0",
+    "next": "^11.0.1"
+  },
+  "dependencies": {
+    "less": "^4.1.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "less-plugin-npm-import": "^2.1.0",
+    "next": "^11.0.1"
+  }
+}

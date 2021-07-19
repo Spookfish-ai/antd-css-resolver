@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "isolatedModules": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/**/*.ts"],
+  "exclude": ["node_modules"]
+}
